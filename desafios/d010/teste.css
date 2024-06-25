@@ -1,0 +1,56 @@
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ a {
+    text-decoration: none;
+    color: aliceblue;
+ }
+   
+   h1 {
+    text-align: center;
+    margin-top: 100px;
+   }
+
+  p {
+    display: block;
+  }
+
+ .header {
+    background-color: rgb(52, 52, 52);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+ }
+
+ .menu {
+    display: flex;
+ }
+
+ .menu li {
+    margin-left: 20px;
+ }
+
+ .menu li a {
+    display: flex;
+    padding: 10px;
+ }
+
+ .flex1 {
+    display: flex;
+ }
+
+ .flex1 > .flex2 > div {
+    flex: 1 1 200px;
+    background-color: aqua;
+ }
+
+ .flex2 {
+    display: flex;
+ }

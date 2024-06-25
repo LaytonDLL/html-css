@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+     a {
+        color: burlywood;
+        text-decoration: none;
+        font-weight: bold;
+     } 
+
+     a:visited {
+        color: rgb(203, 255, 72);
+     }
+
+     a:hover {
+        color: black;
+        text-decoration: underline;
+     }
+
+     a:active {
+        color: aqua;
+     }
+
+    .especial {
+        background-color: rgba(0, 255, 255, 0.278);
+        border-radius: 5px;
+    }
+    
+     .especial::before {
+        content: '✖︎';
+     }
+
+     .especial::after {
+        content: '✖︎';
+     }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.facebook.com" class="especial">Repositório</a></li>
+        <li><a href="https://youtube.com" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://cursoemvideo.com">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>

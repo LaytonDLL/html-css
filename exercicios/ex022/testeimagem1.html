@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando a imagem de varias formas</title>
+</head>
+<style>
+    body {
+        background-image: linear-gradient(to right, #f2ccfd, #fdffd2);
+    }
+
+    div.quadro {
+        display: inline-block;
+        background-color: lightgray;
+        border: 3px solid black;
+        border-radius: 10px;
+        width: 400px ;
+        height: 400px;
+        margin: 5px;
+    }
+
+     div#q1 {
+        background-image: url(/exercicios/ex022/imagens/pattern002.png);
+     }
+     
+     div#q2 {
+        background-image: linear-gradient(to top, rgb(255, 255, 171), rgb(80, 80, 80), rgb(184, 255, 176));
+     }
+
+     div#q3 {
+      background-image: url(/exercicios/ex022/imagens/pattern001.png);
+     }
+
+</style>
+<body>
+    <div class="quadro" id="q1"></div>
+    <div class="quadro" id="q2"></div>
+    <div class="quadro" id="q3"></div>
+</body>
+</html>

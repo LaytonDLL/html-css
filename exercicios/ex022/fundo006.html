@@ -7,17 +7,25 @@
 </head>
 <style>
     body {
-        height: 100vh;
+        /* height: 100vh;
         background-color: black;
         background-image: url('/exercicios/ex022/imagens/wallpaper002.jpg');
         background-position: center center;
         background-size: cover;
         background-repeat: repeat;
+        background-attachment: fixed; 
+        */
+
+        /* Shorthand - background
+        color > image > position > repeat > [size] > attachment */
+
+        background: black url('exercicios/ex022/imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+        background-size: cover;
     }
 
     main {
         background-color: aliceblue;
-        width: 400px;
+        max-width: 700px;
         padding: 10px;
         margin: auto;
         border: 1px solid darkblue;

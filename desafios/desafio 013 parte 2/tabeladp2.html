@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio parte 2 tabela</title>
+    <style>
+        body {
+            padding: 5px;
+            margin: 0 auto;
+            background-color: rgba(208, 255, 246, 0);
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+        }
+        table {
+            border-collapse: collapse;
+        }
+
+
+        th, td {
+            background-color: aliceblue;
+            border: 2px solid black;
+            padding: 19px;
+        }
+        
+        .re1 {
+            text-align: left;  
+        }
+
+       .cor1 {
+          background-color: rgb(255, 248, 183);
+          color: rgb(0, 0, 0);
+        }
+
+        .cor2 {
+            background-color: rgb(255, 255, 236);
+        }
+
+        .cor3 {
+            background-color: rgb(255, 207, 189);
+        }
+
+        .cor4 {
+            background-color: rgb(255, 129, 129);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th class="cor1" rowspan="2">Aréa</th>
+                <th class="cor1" rowspan="2">Disciplinas</th>
+                <th class="cor1" colspan="2">Notas</th>
+                <th class="cor1" rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th class="cor1" colspan="1" scope="1">Nota 1</th>
+                <th class="cor1" colspan="1" scope="1">Nota 2</th>
+            </tr>
+           <thead>
+            <tr>
+             <th class="cor4" rowspan="4" scope="rowgroup">Exatas</th>
+             <th  class="cor3">Matematica</th>
+             <th class="cor2">0.0</th>
+             <th class="cor2">0.0</th>
+             <th class="cor2">0.0</th>
+             </tr>
+             <tr>
+                <th class="cor3">Física</th>
+                <th class="cor2">0.0</th>
+                <th class="cor2">0.0</th>
+                <th class="cor2">0.0</th>
+             </tr>
+             <tr>
+                <th class="cor3">Química</th>
+                <th class="cor2">0.0</th>
+                <th class="cor2">0.0</th>
+                <th class="cor2">0.0</th>
+             </tr>
+             <tr>
+                <th class="cor3">Biologia</th>
+                <th class="cor2">0.0</th>
+                <th class="cor2">0.0</th>
+                <th class="cor2">0.0</th>
+             </tr>
+           </thead>
+           <thead>
+                <tr>
+                    <th class="cor1" colspan="4">Média de Exatas</th>
+                    <th class="cor1" >0.0</th>
+                </tr>
+               </thead>
+               <thead>
+                <tr>
+                    <th class="cor4" rowspan="3">Humanas</th>
+                </tr>
+                <tr>
+                    <th class="cor3">História</th>
+                    <th class="cor2">0.0</th>
+                    <th class="cor2">0.0</th>
+                    <th class="cor2">0.0</th>
+                </tr>
+                <tr>
+                    <th class="cor3">Geografia</th>
+                    <th class="cor2">0.0</th>
+                    <th class="cor2">0.0</th>
+                    <th class="cor2">0.0</th>
+                </tr>
+               </thead>
+               <tfoot>
+               <tr>
+                <th class="cor1" colspan="4">Média de Humanas</th>
+                <th class="cor1">0.0</th>
+               </tr>
+            </tfoot>
+    </table>
+</body>
+</html>
